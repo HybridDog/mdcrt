@@ -1,0 +1,270 @@
+PlanetPenguin Racer Diagnostic Log
+
+Generated:       Sun Dec  7 17:41:15 2014 GMT
+PPRacer Version:      SVN Development
+OS:              Linux 3.13.0-40-generic #69-Ubuntu SMP Thu Nov 13 17:56:26 UTC 2014
+
+etracer debug (gl_ext): GL_EXT_compiled_vertex_array extension supported
+etracer debug (gl_info): OpenGL information:
+  vendor: NVIDIA Corporation
+  renderer: GeForce GT 610/PCIe/SSE2
+  version: 4.4.0 NVIDIA 331.38
+  extensions:
+    Extreme
+    Tux
+    Racer
+  maximum lights: 8
+  modelview stack depth: 32
+  projection stack depth: 4
+  max texture size: 16384
+  double buffering: 1
+  red bits: 8
+  green bits: 8
+  blue bits: 8
+  alpha bits: 0
+  depth bits: 24
+  stencil bits: 8
+
+etracer debug (sound): Opened audio device at 44100 Hz 16-bit audio
+etracer debug (texture): Loading texture noicon from file: textures/noicon.png
+etracer debug (texture): Loading texture herring_run_icon from file: events/b-herring_run/herringrunicon.png
+etracer debug (texture): Loading texture cup_icon from file: events/b-herring_run/cupicon.png
+etracer debug (texture): Loading texture no_preview from file: ../textures/nopreview.png
+etracer debug (texture): Binding no_preview to texture name: no_preview
+etracer debug (texture): Loading texture contrib/Tidy from file: Tidy/preview.rgb
+etracer debug (texture): Binding contrib/Tidy to texture name: contrib/Tidy
+etracer debug (texture): Loading texture contrib/BronzeSet from file: BronzeSet/preview.rgb
+etracer debug (texture): Binding contrib/BronzeSet to texture name: contrib/BronzeSet
+etracer debug (texture): Loading texture contrib/wild_ride from file: wild_ride/preview.rgb
+etracer debug (texture): Binding contrib/wild_ride to texture name: contrib/wild_ride
+etracer debug (texture): Loading texture contrib/rock_n_roll from file: rock_n_roll/preview.rgb
+etracer debug (texture): Binding contrib/rock_n_roll to texture name: contrib/rock_n_roll
+etracer debug (texture): Loading texture contrib/doing from file: doing/preview.png
+etracer debug (texture): Binding contrib/doing to texture name: contrib/doing
+etracer debug (texture): Loading texture contrib/snow_run_2 from file: snow_run_2/preview.rgb
+etracer debug (texture): Binding contrib/snow_run_2 to texture name: contrib/snow_run_2
+etracer debug (texture): Loading texture contrib/touch_the_moon from file: touch_the_moon/preview.rgb
+etracer debug (texture): Binding contrib/touch_the_moon to texture name: contrib/touch_the_moon
+etracer debug (texture): Loading texture contrib/TUX_Quiet_River from file: TUX_Quiet_River/preview.rgb
+etracer debug (texture): Binding contrib/TUX_Quiet_River to texture name: contrib/TUX_Quiet_River
+etracer debug (texture): Loading texture contrib/herrings_half_pipe from file: herrings_half_pipe/preview.rgb
+etracer debug (texture): Binding contrib/herrings_half_pipe to texture name: contrib/herrings_half_pipe
+etracer debug (texture): Loading texture contrib/TUX_Touristic_Ride from file: TUX_Touristic_Ride/preview.rgb
+etracer debug (texture): Binding contrib/TUX_Touristic_Ride to texture name: contrib/TUX_Touristic_Ride
+etracer debug (texture): Loading texture contrib/Comepeces from file: Comepeces/preview.rgb
+etracer debug (texture): Binding contrib/Comepeces to texture name: contrib/Comepeces
+etracer debug (texture): Loading texture contrib/Desperation from file: Desperation/preview.rgb
+etracer debug (texture): Binding contrib/Desperation to texture name: contrib/Desperation
+etracer debug (texture): Loading texture contrib/milos_castle from file: milos_castle/preview.rgb
+etracer debug (texture): Binding contrib/milos_castle to texture name: contrib/milos_castle
+etracer debug (texture): Loading texture contrib/this_means_something from file: this_means_something/preview.rgb
+etracer debug (texture): Binding contrib/this_means_something to texture name: contrib/this_means_something
+etracer debug (texture): Loading texture contrib/WildWestChuteOut from file: WildWestChuteOut/preview.rgb
+etracer debug (texture): Binding contrib/WildWestChuteOut to texture name: contrib/WildWestChuteOut
+etracer debug (texture): Loading texture contrib/The_long_ride from file: The_long_ride/preview.rgb
+etracer debug (texture): Binding contrib/The_long_ride to texture name: contrib/The_long_ride
+etracer debug (texture): Loading texture contrib/snow_run_1 from file: snow_run_1/preview.rgb
+etracer debug (texture): Binding contrib/snow_run_1 to texture name: contrib/snow_run_1
+etracer debug (texture): Loading texture contrib/Laberinto from file: Laberinto/preview.rgb
+etracer debug (texture): Binding contrib/Laberinto to texture name: contrib/Laberinto
+etracer debug (texture): Loading texture contrib/tuxway from file: tuxway/preview.rgb
+etracer debug (texture): Binding contrib/tuxway to texture name: contrib/tuxway
+etracer debug (texture): Loading texture contrib/El_reto from file: El_reto/preview.rgb
+etracer debug (texture): Binding contrib/El_reto to texture name: contrib/El_reto
+etracer debug (texture): Loading texture chinese_wall from file: chinese_wall/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/chinese_wall to texture name: chinese_wall
+etracer debug (texture): Loading texture explore_mountains from file: explore_mountains/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/explore_mountains to texture name: explore_mountains
+etracer debug (texture): Loading texture in_search_of_the_holy_grail from file: in_search_of_the_holy_grail/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/in_search_of_the_holy_grail to texture name: in_search_of_the_holy_grail
+etracer debug (texture): Loading texture frozen_lakes from file: frozen_lakes/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/frozen_lakes to texture name: frozen_lakes
+etracer debug (texture): Loading texture secret_valleys from file: secret_valleys/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/secret_valleys to texture name: secret_valleys
+etracer debug (texture): Loading texture challenge_one from file: challenge_one/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/challenge_one to texture name: challenge_one
+etracer debug (texture): Loading texture wild_mountains from file: wild_mountains/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/wild_mountains to texture name: wild_mountains
+etracer debug (texture): Loading texture tux_at_home from file: tux_at_home/preview.png
+etracer debug (texture): Binding events/d-niehoff_experience/tux_at_home to texture name: tux_at_home
+etracer debug (texture): Binding Search, Search, Search to texture name: cup_icon
+etracer debug (texture): Binding Mountains and Hills to texture name: cup_icon
+etracer debug (texture): Binding The Final Challenge to texture name: cup_icon
+etracer debug (texture): Binding The Niehoff Experience to texture name: herring_run_icon
+etracer debug (texture): Loading texture path_of_daggers from file: path_of_daggers/preview.png
+etracer debug (texture): Binding events/a-tux_racer/path_of_daggers to texture name: path_of_daggers
+etracer debug (texture): Loading texture bumpy_ride from file: bumpy_ride/preview.png
+etracer debug (texture): Binding events/a-tux_racer/bumpy_ride to texture name: bumpy_ride
+etracer debug (texture): Loading texture frozen_river from file: frozen_river/preview.png
+etracer debug (texture): Binding events/a-tux_racer/frozen_river to texture name: frozen_river
+etracer debug (texture): Loading texture twisty_slope from file: twisty_slope/preview.png
+etracer debug (texture): Binding events/a-tux_racer/twisty_slope to texture name: twisty_slope
+etracer debug (texture): Loading texture bunny_hill from file: bunny_hill/preview.png
+etracer debug (texture): Binding events/a-tux_racer/bunny_hill to texture name: bunny_hill
+etracer debug (texture): Binding Canadian Cup to texture name: cup_icon
+etracer debug (texture): Binding Swiss Cup to texture name: cup_icon
+etracer debug (texture): Binding Tux Racer Classics to texture name: herring_run_icon
+etracer debug (texture): Loading texture nature_stroll from file: nature_stroll/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/nature_stroll to texture name: nature_stroll
+etracer debug (texture): Loading texture hippo_run from file: hippo_run/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/hippo_run to texture name: hippo_run
+etracer debug (texture): Loading texture slippy_slidey from file: slippy_slidey/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/slippy_slidey to texture name: slippy_slidey
+etracer debug (texture): Loading texture merry_go_round from file: merry_go_round/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/merry_go_round to texture name: merry_go_round
+etracer debug (texture): Loading texture crazy_path from file: crazy_path/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/crazy_path to texture name: crazy_path
+etracer debug (texture): Loading texture ice_pipeline from file: ice_pipeline/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/ice_pipeline to texture name: ice_pipeline
+etracer debug (texture): Loading texture hey_tux from file: hey_tux/preview.rgb
+etracer debug (texture): Binding events/c-mountain_mania/hey_tux to texture name: hey_tux
+etracer debug (texture): Loading texture volcanoes from file: volcanoes/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/volcanoes to texture name: volcanoes
+etracer debug (texture): Loading texture in_search_of_vodka from file: in_search_of_vodka/preview.rgb
+etracer debug (texture): Binding events/c-mountain_mania/in_search_of_vodka to texture name: in_search_of_vodka
+etracer debug (texture): Loading texture bobsled_ride from file: bobsled_ride/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/bobsled_ride to texture name: bobsled_ride
+etracer debug (texture): Loading texture candy_lane from file: candy_lane/preview.png
+etracer debug (texture): Binding events/c-mountain_mania/candy_lane to texture name: candy_lane
+etracer debug (texture): Binding Icy Peril to texture name: cup_icon
+etracer debug (texture): Binding Death Cup to texture name: cup_icon
+etracer debug (texture): Binding Slippery Defeat to texture name: cup_icon
+etracer debug (texture): Binding The Final Three to texture name: cup_icon
+etracer debug (texture): Binding Mountain Mania to texture name: herring_run_icon
+etracer debug (texture): Loading texture deadman from file: deadman/preview.png
+etracer debug (texture): Binding events/b-herring_run/deadman to texture name: deadman
+etracer debug (texture): Loading texture snow_valley from file: snow_valley/preview.png
+etracer debug (texture): Binding events/b-herring_run/snow_valley to texture name: snow_valley
+etracer debug (texture): Loading texture penguins_cant_fly from file: penguins_cant_fly/preview.png
+etracer debug (texture): Binding events/b-herring_run/penguins_cant_fly to texture name: penguins_cant_fly
+etracer debug (texture): Loading texture bumpy_ride from file: bumpy_ride/preview.png
+etracer debug (texture): Found texture bumpy_ride with id: 34
+etracer debug (texture): Binding events/b-herring_run/bumpy_ride to texture name: bumpy_ride
+etracer debug (texture): Loading texture ive_got_a_woody from file: ive_got_a_woody/preview.png
+etracer debug (texture): Binding events/b-herring_run/ive_got_a_woody to texture name: ive_got_a_woody
+etracer debug (texture): Loading texture slalom from file: slalom/preview.png
+etracer debug (texture): Binding events/b-herring_run/slalom to texture name: slalom
+etracer debug (texture): Loading texture the_narrow_way from file: the_narrow_way/preview.png
+etracer debug (texture): Binding events/b-herring_run/the_narrow_way to texture name: the_narrow_way
+etracer debug (texture): Loading texture keep_it_up from file: keep_it_up/preview.png
+etracer debug (texture): Binding events/b-herring_run/keep_it_up to texture name: keep_it_up
+etracer debug (texture): Loading texture mount_herring from file: mount_herring/preview.png
+etracer debug (texture): Binding events/b-herring_run/mount_herring to texture name: mount_herring
+etracer debug (texture): Loading texture hazzard_valley from file: hazzard_valley/preview.png
+etracer debug (texture): Binding events/b-herring_run/hazzard_valley to texture name: hazzard_valley
+etracer debug (texture): Loading texture high_road from file: high_road/preview.png
+etracer debug (texture): Binding events/b-herring_run/high_road to texture name: high_road
+etracer debug (texture): Loading texture skull_mountain from file: skull_mountain/preview.png
+etracer debug (texture): Binding events/b-herring_run/skull_mountain to texture name: skull_mountain
+etracer debug (texture): Loading texture ice_labyrinth from file: ice_labyrinth/preview.png
+etracer debug (texture): Binding events/b-herring_run/ice_labyrinth to texture name: ice_labyrinth
+etracer debug (texture): Loading texture mount_satan from file: mount_satan/preview.png
+etracer debug (texture): Binding events/b-herring_run/mount_satan to texture name: mount_satan
+etracer debug (texture): Loading texture hamburger_hill from file: hamburger_hill/preview.png
+etracer debug (texture): Binding events/b-herring_run/hamburger_hill to texture name: hamburger_hill
+etracer debug (texture): Loading texture ski_jump from file: ski_jump/preview.png
+etracer debug (texture): Binding events/b-herring_run/ski_jump to texture name: ski_jump
+etracer debug (texture): Loading texture tux-toboggan_run from file: tux-toboggan_run/preview.png
+etracer debug (texture): Binding events/b-herring_run/tux-toboggan_run to texture name: tux-toboggan_run
+etracer debug (texture): Binding Mountain Man to texture name: cup_icon
+etracer debug (texture): Binding Valley Cup to texture name: cup_icon
+etracer debug (texture): Binding Tux the winter sportsman to texture name: cup_icon
+etracer debug (texture): Binding Highway To Hell to texture name: cup_icon
+etracer debug (texture): Binding Herring Run to texture name: b-herring_run_icon
+%%% etracer warning: Attempt to bind to Texture unloaded texture: `b-herring_run_icon'
+
+etracer debug (texture): Loading texture touch_t from file: touch_t/preview.png
+etracer debug (texture): Binding events/fdg/touch_t to texture name: touch_t
+etracer debug (texture): Loading texture t from file: t/preview.png
+etracer debug (texture): Binding events/fdg/t to texture name: t
+etracer debug (texture): Binding onnoschosch to texture name: cup_icon
+etracer debug (texture): Binding namenloses Event to texture name: herring_run_icon
+etracer debug (sound): Successfully loaded music file music/start1-jt.it
+etracer debug (sound): incremented reference counter of music start_screen to 1
+etracer debug (sound): incremented reference counter of music start_screen to 2
+etracer debug (sound): Successfully loaded music file music/credits1-cp.it
+etracer debug (sound): incremented reference counter of music credits_screen to 1
+etracer debug (sound): Successfully loaded music file music/options1-jt.it
+etracer debug (sound): incremented reference counter of music options_screen to 1
+etracer debug (sound): Successfully loaded music file music/race1-jt.it
+etracer debug (sound): incremented reference counter of music racing to 1
+etracer debug (sound): incremented reference counter of music racing to 2
+etracer debug (sound): incremented reference counter of music racing to 3
+etracer debug (sound): Successfully loaded music file music/wonrace1-jt.it
+etracer debug (sound): incremented reference counter of music game_over to 1
+etracer debug (sound): Successfully loaded sound file sounds/tux_hit_tree1.wav
+etracer debug (sound): incremented reference counter of sound tree_hit1 to 1
+etracer debug (sound): Successfully loaded sound file sounds/fish_pickup1.wav
+etracer debug (sound): Successfully loaded sound file sounds/fish_pickup2.wav
+etracer debug (sound): Successfully loaded sound file sounds/fish_pickup3.wav
+etracer debug (sound): incremented reference counter of sound fish_pickup_sound_1 to 1
+etracer debug (sound): incremented reference counter of sound fish_pickup_sound_2 to 1
+etracer debug (sound): incremented reference counter of sound fish_pickup_sound_3 to 1
+etracer debug (sound): Successfully loaded sound file sounds/tux_on_snow1.wav
+etracer debug (sound): incremented reference counter of sound snow_sound to 1
+etracer debug (sound): incremented reference counter of sound snow_sound to 2
+etracer debug (sound): Successfully loaded sound file sounds/tux_on_rock1.wav
+etracer debug (sound): incremented reference counter of sound rock_sound to 1
+etracer debug (sound): Successfully loaded sound file sounds/tux_on_ice1.wav
+etracer debug (sound): incremented reference counter of sound ice_sound to 1
+etracer debug (texture): Loading texture splash_screen from file: textures/splash.png
+etracer debug (texture): Binding splash_screen to texture name: splash_screen
+etracer debug (texture): Loading texture splash_screen_small from file: textures/splash_small.png
+etracer debug (texture): Binding splash_screen_small to texture name: splash_screen_small
+etracer debug (texture): Loading texture ui_snow_particle from file: textures/snowparticles.png
+etracer debug (texture): Binding ui_snow_particle to texture name: ui_snow_particle
+etracer debug (texture): Loading texture snow_particle from file: textures/snowparticles.png
+etracer debug (texture): Binding snow_particle to texture name: snow_particle
+etracer debug (texture): Loading texture herring_icon from file: textures/herringicon.png
+etracer debug (texture): Binding herring_icon to texture name: herring_icon
+etracer debug (texture): Loading texture time_icon from file: textures/timeicon.png
+etracer debug (texture): Binding time_icon to texture name: time_icon
+etracer debug (texture): Loading texture gauge_outline from file: textures/gaugeoutline.png
+etracer debug (texture): Binding gauge_outline to texture name: gauge_outline
+etracer debug (texture): Loading texture gauge_energy_mask from file: textures/gaugeenergymask.png
+etracer debug (texture): Binding gauge_energy_mask to texture name: gauge_energy_mask
+etracer debug (texture): Loading texture gauge_speed_mask from file: textures/gaugespeedmask.png
+etracer debug (texture): Binding gauge_speed_mask to texture name: gauge_speed_mask
+etracer debug (texture): Loading texture energy_mask from file: textures/energymask.png
+etracer debug (texture): Binding energy_mask to texture name: energy_mask
+etracer debug (texture): Loading texture speed_mask from file: textures/speedmask.png
+etracer debug (texture): Binding speed_mask to texture name: speed_mask
+etracer debug (texture): Loading texture mask_outline from file: textures/mask_outline.png
+etracer debug (texture): Binding mask_outline to texture name: mask_outline
+etracer debug (texture): Loading texture mask_outline2 from file: textures/mask_outline2.png
+etracer debug (texture): Binding mask_outline2 to texture name: mask_outline2
+etracer debug (texture): Loading texture listbox_arrows from file: textures/listbox_arrows.png
+etracer debug (texture): Binding listbox_arrows to texture name: listbox_arrows
+etracer debug (texture): Binding textarea_arrows to texture name: listbox_arrows
+etracer debug (texture): Loading texture mirror_button from file: textures/mirror_button.png
+etracer debug (texture): Binding mirror_button to texture name: mirror_button
+etracer debug (texture): Loading texture conditions_button from file: textures/conditions_button.png
+etracer debug (texture): Binding conditions_button to texture name: conditions_button
+etracer debug (texture): Loading texture snow_button from file: textures/snow_button.png
+etracer debug (texture): Binding snow_button to texture name: snow_button
+etracer debug (texture): Loading texture wind_button from file: textures/wind_button.png
+etracer debug (texture): Binding wind_button to texture name: wind_button
+etracer debug (texture): Loading texture checkmark from file: textures/checkmark.png
+etracer debug (texture): Binding checkmark to texture name: checkmark
+etracer debug (texture): Loading texture menu_bottom_left from file: textures/menu_bottom_left.png
+etracer debug (texture): Binding menu_bottom_left to texture name: menu_bottom_left
+etracer debug (texture): Loading texture menu_bottom_right from file: textures/menu_bottom_right.png
+etracer debug (texture): Binding menu_bottom_right to texture name: menu_bottom_right
+etracer debug (texture): Loading texture menu_top_left from file: textures/menu_top_left.png
+etracer debug (texture): Binding menu_top_left to texture name: menu_top_left
+etracer debug (texture): Loading texture menu_top_right from file: textures/menu_top_right.png
+etracer debug (texture): Binding menu_top_right to texture name: menu_top_right
+etracer debug (texture): Loading texture menu_title from file: textures/menu_title.png
+etracer debug (texture): Binding menu_title to texture name: menu_title
+etracer debug (texture): Loading texture menu_title_small from file: textures/menu_title_small.png
+etracer debug (texture): Binding menu_title_small to texture name: menu_title_small
+etracer debug (texture): Loading texture tux_life from file: textures/tuxlife.png
+etracer debug (texture): Binding tux_life to texture name: tux_life
+etracer debug (texture): Loading texture mouse_cursor from file: textures/mouse_cursor.png
+etracer debug (texture): Binding mouse_cursor to texture name: mouse_cursor
+etracer debug (texture): Deleting texture noicon
+etracer debug (ui): Mouse entered button
+etracer debug (ui): Mouse entered button
+etracer debug (ui): Mouse left button
+etracer debug (ui): Button is down
+etracer debug (ui): Button was clicked
