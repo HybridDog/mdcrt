@@ -5,16 +5,12 @@ using namespace std;
 
 int main() {
 
-	string owner, modname, depends, license, screenshot_link;
+	string owner, modname, screenshot_link;
 
 	cout << "owner = ";
 	cin >> owner;
 	cout << "modname = ";
 	cin >> modname;
-	cout << "depends = ";
-	cin >> depends;
-	cout << "license = ";
-	cin >> license;
 	cout << "screenshot_link = ";
 	cin >> screenshot_link;
 
@@ -24,22 +20,43 @@ int main() {
 	if (screenshot_link == "n")
 		screenshot_link = "http://bit.ly/1wOCWpq";
 
-	string giturl = "[url=https://github.com/" + owner + "/" + modname;
-	string raw_giturl = "[url=https://raw.githubusercontent.com/" + owner + "/" + modname + "/master/";
+	string gpart = ".com/" + owner + "/" + modname;
+
+	string giturl = "[url=https://github" + gpart;
+	string raw_giturl = "[url=https://raw.githubusercontent" + gpart + "/master/";
 	string ziplink = giturl + "/archive/master.zip]zip[/url]";
 	string tarlink = giturl + "/archive/master.tar.gz]tar.gz[/url]";
 
 
-	cout << "--------------------------" << endl << endl;
+	cout << "------------forum topic--------------" << endl << endl;
 
 	cout << "[Mod] " << modname << " [" << modname << "]" << endl << endl;
 
-	cout << raw_giturl << "depends.txt][b]Depends:[/b][/url] " << depends << endl;
-	cout << raw_giturl << "LICENSE.txt][b]License:[/b][/url] " << license << endl;
+	cout << raw_giturl << "depends.txt][b]Depends:[/b][/url] default" << endl;
+	cout << raw_giturl << "LICENSE.txt][b]License:[/b][/url] WTFPL" << endl;
 	cout << "[b]Download:[/b] " << ziplink << ", " << tarlink << endl;
 	cout << "[b]github:[/b] " << giturl << "]" << modname << "[/url]" << endl << endl;
 
 	cout << "[img]" << screenshot_link << "[/img]" << endl << endl;
+
+	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl << endl;
+
+
+	giturl = "](https://github" + gpart;
+	string giturl_raw = "](https://raw.githubusercontent" + gpart + "/master/";
+	ziplink = "[zip" + giturl + "/archive/master.zip)";
+	tarlink = "[tar.gz" + giturl + "/archive/master.tar.gz)";
+
+
+	cout << "------------github readme-------------" << endl << endl;
+
+	cout << "[Mod] " << modname << " [" << modname << "]" << endl << endl;
+
+	cout << "**Depends:** see [depends.txt" << giturl_raw << "depends.txt)  " << endl;
+	cout << "**License:** see [LICENSE.txt" << giturl_raw << "LICENSE.txt)  " << endl;
+	cout << "**Download:** " << ziplink << ", " << tarlink << "  " << endl << endl;
+
+	cout << "![I'm a screenshot!](" << screenshot_link << ")" << endl << endl;
 
 	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl;
 
