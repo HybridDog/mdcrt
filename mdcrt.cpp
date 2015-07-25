@@ -25,7 +25,7 @@ int main() {
 	string giturl = "[url=https://github" + gpart;
 	string raw_giturl = "[url=https://raw.githubusercontent" + gpart + "/master/";
 	string ziplink = giturl + "/archive/master.zip]zip[/url]";
-	string tarlink = giturl + "/archive/master.tar.gz]tar.gz[/url]";
+	string tarlink = giturl + "/tarball/master]tar.gz[/url]";
 
 
 	cout << "------------forum topic--------------" << endl << endl;
@@ -45,7 +45,7 @@ int main() {
 	giturl = "](https://github" + gpart;
 	string giturl_raw = "](https://raw.githubusercontent" + gpart + "/master/";
 	ziplink = "[zip" + giturl + "/archive/master.zip)";
-	tarlink = "[tar.gz" + giturl + "/archive/master.tar.gz)";
+	tarlink = "[tar.gz" + giturl + "/tarball/master)";
 
 
 	cout << "------------github readme-------------" << endl << endl;
