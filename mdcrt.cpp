@@ -20,6 +20,8 @@ int main() {
 	if (screenshot_link == "n")
 		screenshot_link = "http://bit.ly/1wOCWpq";
 
+	string installhelp = "http://wiki.minetest.net/Installing_Mods";
+
 	string gpart = ".com/" + owner + "/" + modname;
 
 	string giturl = "[url=https://github" + gpart;
@@ -39,7 +41,9 @@ int main() {
 
 	cout << "[img]" << screenshot_link << "[/img]" << endl << endl;
 
-	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl << endl;
+	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl;
+
+	cout << "[/url=" << installhelp << "]How to install a mod?" << "[/url]" << endl << endl << endl;
 
 
 	giturl = "](https://github" + gpart;
@@ -59,6 +63,8 @@ int main() {
 	cout << "![I'm a screenshot!](" << screenshot_link << ")" << endl << endl;
 
 	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl;
+
+	cout << "[How to install a mod?](" << installhelp << ")" << endl << endl;
 
 	cout << "--------------------------" << endl;
 
