@@ -43,7 +43,7 @@ int main() {
 
 	cout << "If you got ideas or found bugs, please tell them to me." << endl << endl;
 
-	cout << "[/url=" << installhelp << "]How to install a mod?" << "[/url]" << endl << endl << endl;
+	cout << "[url=" << installhelp << "]How to install a mod?" << "[/url]" << endl << endl << endl;
 
 
 	giturl = "](https://github" + gpart;
