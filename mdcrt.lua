@@ -1,3 +1,5 @@
+-- this is out of date.
+
 function say_topic_mod(owner, modname, desc, depends, license, screenshot_link)
 	local giturl = "[url=https://github.com/"..owner.."/"..modname
 	local ziplink = giturl.."/archive/master.zip]zip[/url]"
