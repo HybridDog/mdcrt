@@ -46,8 +46,8 @@ If you got ideas or found bugs, please tell them to me.
 
 [Mod] $modname [$modname]
 
-**Depends:** see [depends.txt](${raw_giturl}depends.txt)
-**License:** see [LICENSE.txt](${raw_giturl}LICENSE.txt)
+**Depends:** see [depends.txt](${raw_giturl}depends.txt)<br/>
+**License:** see [LICENSE.txt](${raw_giturl}LICENSE.txt)<br/>
 **Download:** [zip]($ziplink), [tar.gz]($tarlink)
 
 ![I'm a screenshot!]($screenshot_link)
